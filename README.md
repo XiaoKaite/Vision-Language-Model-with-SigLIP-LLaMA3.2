@@ -139,13 +139,6 @@ python batch_inference.py \
 ]
 ```
 
-### 单图推理（原项目用法）
-
-```python
-from inference import run_inference
-run_inference("path/to/image.jpg", "Describe this image in detail.")
-```
-
 ## 示例输出
 
 | 输入 | 输出 |
@@ -155,7 +148,9 @@ run_inference("path/to/image.jpg", "Describe this image in detail.")
 
 ## Acknowledgements
 
-灵感来源：LLaVA、MiniGPT-4
+本项目 Fork 自 [XiaoKaite/Vision-Language-Model-with-SigLIP-LLaMA3.2](https://github.com/XiaoKaite/Vision-Language-Model-with-SigLIP-LLaMA3.2)，在其 VLM 模型基础上增加了视频抽帧与批量推理管道。
+
+模型部分受 LLaVA、MiniGPT-4 启发。
 
 ## License
 
