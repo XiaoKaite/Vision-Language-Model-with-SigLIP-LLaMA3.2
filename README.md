@@ -171,12 +171,6 @@ python batch_inference.py \
 
 ---
 
-## 关于 HuggingFace
-
-[HuggingFace](https://huggingface.co) 是机器学习领域的"GitHub"，用于托管和分享训练好的模型权重。由于 GitHub 对单文件有大小限制，本项目的大文件（模型权重）托管在 HuggingFace 上，需要单独下载。
-
----
-
 ## 模型架构
 
 基于 **SigLIP ViT** 视觉编码器 + **LLaMA 3.2 (3B) Instruct** 语言主干，受 LLaVA / MiniGPT-4 启发：
